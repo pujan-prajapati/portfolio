@@ -7,7 +7,9 @@ interface WrapperProps {
 
 export const Wrapper = ({ children, className }: WrapperProps) => {
   return (
-    <section className={`px-8 md:px-4 container lg:px-28 py-6 ${className}`}>
+    <section
+      className={`px-8 md:px-4 my-5 container lg:px-28 py-6 ${className}`}
+    >
       {children}
     </section>
   );
